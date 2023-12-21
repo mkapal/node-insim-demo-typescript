@@ -1,0 +1,19 @@
+{
+  "name": "node-insim-demo-typescript",
+  "version": "1.0.0",
+  "description": "Node InSim Demo Application in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx watch index.ts",
+    "build": "tsc",
+    "serve:production": "node dist/index.js"
+  },
+  "dependencies": {
+    "node-insim": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
