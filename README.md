@@ -4,7 +4,7 @@ A simple demo application using [Node InSim](https://github.com/simbroadcasts/no
 
 ## Requirements
 
-- [Node.js](https://nodejs.org) 18 or higher
+- [Node.js](https://nodejs.org) 22
 - [Live for Speed](https://www.lfs.net/)
 
 ## Installation
