@@ -19,6 +19,6 @@ If you want to connect to LFS locally, start LFS and enable InSim by typing `/in
 
 Open the command line and run `npm start`.
 
-This application connects to `127.0.0.1:29999` by default. You can change the host or port by editing [index.js](./index.js).
+This application connects to `127.0.0.1:29999` by default. You can change the host or port by editing [src/index.ts](./src/index.ts).
 
 If you want to connect to a remote LFS host, use the InSim port that is assigned to your LFS host.
