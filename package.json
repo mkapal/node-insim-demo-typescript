@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node InSim Demo Application in TypeScript",
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
     "start": "tsx watch src/index.ts",
     "build": "tsc",
