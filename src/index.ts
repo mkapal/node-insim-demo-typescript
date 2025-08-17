@@ -1,5 +1,5 @@
 import { InSim } from 'node-insim';
-import { IS_ISI_ReqI, type IS_VER, PacketType } from 'node-insim/packets';
+import { InSimFlags, IS_ISI_ReqI, type IS_VER, PacketType } from 'node-insim/packets';
 
 const inSim = new InSim();
 
@@ -9,10 +9,7 @@ inSim.connect({
   Port: 29999,
   ReqI: IS_ISI_ReqI.SEND_VERSION,
   Admin: '',
-});
-
-inSim.on('connect', () => {
-  console.log('Connected');
+  Flags: InSimFlags.ISF_LOCAL,
 });
 
 inSim.on('disconnect', () => {

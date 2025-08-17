@@ -9,11 +9,11 @@
     "serve:production": "node dist/index.js"
   },
   "dependencies": {
-    "node-insim": "^4.6.3"
+    "node-insim": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
   }
 }
