@@ -1,5 +1,5 @@
 import { InSim } from 'node-insim';
-import { InSimFlags, IS_ISI_ReqI, type IS_VER, PacketType } from 'node-insim/packets';
+import { InSimFlags, type InSimPacketInstance, IS_ISI_ReqI, PacketType } from 'node-insim/packets';
 
 const inSim = new InSim();
 
@@ -18,7 +18,7 @@ inSim.on('disconnect', () => {
 
 inSim.on(PacketType.ISP_VER, onVersion);
 
-function onVersion(packet: IS_VER) {
+function onVersion(packet: InSimPacketInstance<PacketType.ISP_VER>) {
   console.log(`Connected to LFS ${packet.Product} ${packet.Version}`);
 }
 

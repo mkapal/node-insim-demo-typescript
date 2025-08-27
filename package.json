@@ -10,7 +10,7 @@
     "serve:production": "node dist/index.js"
   },
   "dependencies": {
-    "node-insim": "^5.0.0"
+    "node-insim": "^6.0.0-next.1"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
